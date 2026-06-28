@@ -100,4 +100,4 @@ Se recorre la lista, se retiran todos los bloques libres (acumulando el total li
 Fext = 1 − (Blockmax / Mlibre)
 ```
 
-donde `Bmax` es el bloque libre más grande y `Mlibre` es la suma de todos los bytes libres. Un valor de `0.0` indica que todo el espacio libre es contiguo.
+donde `Blockmax` es el bloque libre más grande y `Mlibre` es la suma de todos los bytes libres. Un valor de `0.0` indica que todo el espacio libre es contiguo.
